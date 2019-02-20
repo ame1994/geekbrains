@@ -3,8 +3,8 @@ import java.util.NoSuchElementException;
 public class MyArrayQueue<T> {
     private Object[] queue = new Object[2];
     private int size = 0;
-    private int start = 0;  //первый элемент в очереди
-    private int end = 0;    //индекс, следующий за последним
+    private int start = 0;  
+    private int end = 0;    
 
     public boolean isEmpty() {
         return size == 0;
